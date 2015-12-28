@@ -40,6 +40,13 @@ header {
     }
 }
 @media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+
     .navbar-static-top {
         position: fixed;
         top: 0;
