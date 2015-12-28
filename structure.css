@@ -4,7 +4,7 @@
 body {
     min-width: 320px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     body {
         margin-top: 6em;
     }
@@ -16,7 +16,7 @@ header {
     margin-top: 1em;
     margin-bottom: 1em;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     header {
         margin-bottom: 3em;
     }
@@ -34,12 +34,12 @@ header {
 /*
  *  Navbar
  */
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .navbar-sidebar-collapse {
         width: 100%!important;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .navbar-static-top {
         position: fixed;
         top: 0;
