@@ -1,0 +1,104 @@
+/*
+ *  Body - for demo purposes
+ */
+body {
+    min-width: 320px;
+}
+@media (max-width: 767px) {
+    body {
+        margin-top: 6em;
+    }
+}
+/*
+ *  Header - for demo purposes
+ */
+header {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+@media (max-width: 767px) {
+    header {
+        margin-bottom: 3em;
+    }
+}
+/*
+ *  Collapse
+ */
+.collapsing.width {
+    height: auto;
+
+    transition-timing-function: ease;
+    transition-duration: 0.35s;
+    transition-property: width, visibility;
+}
+/*
+ *  Navbar
+ */
+@media (min-width: 768px) {
+    .navbar-sidebar-collapse {
+        width: 100%!important;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-static-top {
+        position: fixed;
+        top: 0;
+
+        width: 100%;
+    }
+
+    .navbar-default {
+        /* just do it */
+        background-color: transparent;
+    }
+
+    .navbar-header {
+        position: relative;
+        z-index: 1050;
+
+        /* whatever navbar style was on desktop */
+        color: white;
+        background-color: #111111;
+    }
+
+    .navbar-sidebar {
+        position: fixed;
+        z-index: 1025;
+        top: 0;
+        left: 0;
+
+        height: 100%;
+
+        /* whatever snap.js style was */
+        color: white;
+        background-color: #333333;
+    }
+
+    .navbar-sidebar-collapse {
+        position: relative;
+        /* height of navbar */
+        top: 56px;
+
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+        /* height of navbar minus 100% to fit scrollbar in window */
+        height: calc( 100% - 56px);
+        max-height: 100% !important;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar-sidebar-wrapper {
+        /* width of sidebar.. shouldn't be smaller than this... */
+        width: 280px;
+    }
+
+    .navbar-sidebar .navbar-nav {
+        margin-right: 0;
+        margin-left: 0;
+
+        /* optional but a little space is noice */
+        padding-bottom: 2em;
+    }
+}

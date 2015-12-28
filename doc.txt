@@ -1,0 +1,16 @@
+
+To "#open-right":
+1.) add data-target="(id of menu collapse)".
+2.) add data-toggle="collapse".
+
+To ".navbar-collapse":
+1.) add "width" class.
+2.) add "id of menu collapse" ( see #1 above ).
+3.) wrap in "navbar-sidebar" class.
+
+To ".navbar-collapse .navbar-nav":
+1.) wrap in ".navbar-sidebar-wrapper".
+
+To ".navbar-sidebar-wrapper":
+1.) wrap contents in ".navbar-sidebar-body".
+
