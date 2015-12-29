@@ -40,6 +40,7 @@ header {
     }
 }
 @media (max-width: 991px) {
+    .navbar-nav > li,
     .navbar-header {
         float: none;
     }
@@ -54,18 +55,13 @@ header {
         width: 100%;
     }
 
-    .navbar-default {
-        /* just do it */
-        background-color: transparent;
-    }
-
     .navbar-header {
         position: relative;
         z-index: 1050;
 
         /* whatever navbar style was on desktop */
-        color: white;
-        background-color: #111111;
+        color: red;
+        background-color: blue;
     }
 
     .navbar-sidebar {
@@ -102,9 +98,6 @@ header {
     }
 
     .navbar-sidebar .navbar-nav {
-        margin-right: 0;
-        margin-left: 0;
-
         /* optional but a little space is noice */
         padding-bottom: 2em;
     }

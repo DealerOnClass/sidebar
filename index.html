@@ -33,12 +33,13 @@
         <nav>
             <div id="nav" class="full">
                 <div id="nav-container" class="container-fluid">
-                    <div class="row navbar navbar-inverse navbar-static-top">
+                    <div class="row navbar navbar-default navbar-static-top">
                         <div class="navbar-header">
                             <button id="open-right" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-collapse">
                                 <span id="menu-icon" class="fa fa-bars fa-lg"></span>
                             </button>
                         </div>
+
                         <div class="navbar-sidebar">
                             <div id="menu-collapse" class="navbar-sidebar-collapse collapse width">
                                 <div class="navbar-sidebar-wrapper">
@@ -154,6 +155,40 @@
         <!-- Body       -->
         <!--            -->
         <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-offset-3 col-sm-6">
+                    <p>
+                        <button style="margin-bottom: 3em;" type="button" class="pull-right btn" data-toggle="modal" data-target="#myModal">
+                            Default Modal
+                        </button>
+                    </p>
+                    <div id="myModal" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                    <h4 id="modal-title" class="modal-title">Modal title
+                                        <a class="anchorjs-link" href="#modal-title">
+                                            <span class="anchorjs-icon"></span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>One fine body…</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+                                    <a href="#" class="btn btn-default">Save changes</a>
+                                </div>
+                            </div>
+                            <!-- /.modal-content -->
+                        </div>
+                        <!-- /.modal-dialog -->
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-sm-offset-3 col-sm-6">
                     <p>Lorem ipsum accusantium neque ut iusto! Omnis mollitia cum tenetur nisi cupiditate! Illum deserunt doloremque similique dolore illum molestias corrupti! Corrupti inventore veritatis iusto dicta nobis officia eaque enim. Quaerat odit saepe aliquam magni repudiandae nulla, exercitationem consequuntur rem aut. Tenetur rem assumenda dolor maxime saepe! Delectus error eveniet explicabo.</p>
